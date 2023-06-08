@@ -1,5 +1,5 @@
 import { testimonialData } from "../constants/constants";
-import { useState } from "React";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
