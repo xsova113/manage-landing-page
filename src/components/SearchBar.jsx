@@ -35,7 +35,11 @@ const SearchBar = () => {
             errors.subs && "!border-red-500"
           }`}
         />
-        {errors.subs && <i className="text-red-500 text-sm ml-7 mt-1">{errors.subs.message}</i>}
+        {errors.subs && (
+          <i className="text-red-500 text-sm ml-7 mt-1">
+            {errors.subs.message}
+          </i>
+        )}
       </div>
 
       <button className="py-3 px-7 h-[53px] rounded-full bg-[#F25F3A] hover:bg-[rgb(235,123,95)] transition">
