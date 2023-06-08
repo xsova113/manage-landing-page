@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Difference from "./components/Difference";
-import Testimonial from "./components/testimonial";
+import Testimonial from "./components/Testimonial";
 import SimplifySection from "./components/SimplifySection";
 import Footer from "./components/Footer";
 
